@@ -14,6 +14,7 @@ export const AboutCard = () => (
                 analytical foundation, which comes in handy on frontend
                 projects.
             </p>
+
             <p>
                 I thrive in fast-paced environments where I can use my
                 creativity and technical skills to achieve impactful results.
@@ -22,11 +23,13 @@ export const AboutCard = () => (
                 frameworks and create innovative solutions that drive business
                 growth.
             </p>
+
             <p>
                 Outside of work, I enjoy exploring new programming approaches
                 through personal projects and contributing to open source
                 communities.
             </p>
+
             <p>
                 Currently, I'm looking for an opportunity to contribute my
                 front-end development skills to an innovative company that
