@@ -2,7 +2,7 @@ import { Card, CardBody, CardHeader } from "@nextui-org/card";
 import { Divider } from "@nextui-org/divider";
 
 export const AboutCard = () => (
-    <Card className="w-1/3 m-8">
+    <Card className="w-1/3 h-96 mt-8">
         <CardHeader data-testid="about-card__title">About me</CardHeader>
         <Divider />
         <CardBody>
