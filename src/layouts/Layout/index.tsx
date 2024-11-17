@@ -1,4 +1,3 @@
-import classNames from "classnames";
 import type { ReactNode } from "react";
 import { Header } from "../../components/Header";
 import { bg } from "./index.module.scss";
@@ -9,7 +8,7 @@ type Properties = Readonly<{
 
 export const Layout = ({ children }: Properties) => {
     return (
-        <section className={classNames(bg, "h-screen")}>
+        <section className={bg}>
             <Header />
             {children}
         </section>
