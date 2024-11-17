@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    Cantarell,
+    "Droid Sans",
+    "Fira Sans",
+    "Helvetica Neue",
+    Oxygen,
+    Roboto,
+    "Segoe UI",
+    Ubuntu,
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family:
+    "Cascadia Code",
+    Consolas,
+    "Courier New",
+    Menlo,
+    Monaco,
+    source-code-pro,
+    "Fira Code",
+    monospace;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}

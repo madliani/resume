@@ -1,0 +1,52 @@
+{
+    "automock": false,
+    "bail": 0,
+    "clearMocks": true,
+    "collectCoverage": true,
+    "coverageDirectory": "coverage",
+    "coveragePathIgnorePatterns": ["/node_modules/"],
+    "coverageProvider": "v8",
+    "coverageReporters": ["json", "text", "lcov", "clover"],
+    "errorOnDeprecated": false,
+    "extensionsToTreatAsEsm": [".ts", ".tsx"],
+    "fakeTimers": {
+        "enableGlobally": false
+    },
+    "forceCoverageMatch": [],
+    "globals": {},
+    "maxWorkers": "50%",
+    "moduleDirectories": ["./node_modules"],
+    "moduleFileExtensions": ["js", "mjs", "cjs", "jsx", "ts", "tsx", "json"],
+    "moduleNameMapper": {},
+    "modulePathIgnorePatterns": [],
+    "notify": false,
+    "notifyMode": "failure-change",
+    "resetMocks": false,
+    "resetModules": false,
+    "restoreMocks": false,
+    "runner": "jest-runner",
+    "setupFiles": [],
+    "setupFilesAfterEnv": [],
+    "slowTestThreshold": 5,
+    "snapshotSerializers": [],
+    "testEnvironment": "@happy-dom/jest-environment",
+    "testEnvironmentOptions": {},
+    "testLocationInResults": false,
+    "testMatch": ["**/tests/**/?(*.)+(spec|test).[jt]s?(x)"],
+    "testPathIgnorePatterns": ["/node_modules/"],
+    "testRegex": [],
+    "testRunner": "jest-circus/runner",
+    "transform": {
+        "^.+\\.(t|j)sx?$": [
+            "@swc/jest",
+            {
+                "jsc": {
+                    "target": "es2022"
+                }
+            }
+        ]
+    },
+    "transformIgnorePatterns": ["/node_modules/"],
+    "watchPathIgnorePatterns": [],
+    "watchman": true
+}

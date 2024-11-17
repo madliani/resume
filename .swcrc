@@ -1,0 +1,29 @@
+{
+    "$schema": "https://swc.rs/schema.json",
+    "jsc": {
+        "externalHelpers": false,
+        "keepClassNames": false,
+        "loose": false,
+        "parser": {
+            "decorators": false,
+            "decoratorsBeforeExport": false,
+            "dynamicImport": false,
+            "exportDefaultFrom": false,
+            "exportNamespaceFrom": false,
+            "functionBind": false,
+            "importMeta": false,
+            "jsx": true,
+            "privateMethod": false,
+            "syntax": "typescript",
+            "topLevelAwait": false,
+            "tsx": true
+        },
+        "target": "es2022",
+        "transform": {
+            "react": {
+                "runtime": "automatic"
+            }
+        }
+    },
+    "minify": true
+}

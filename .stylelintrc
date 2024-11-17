@@ -1,0 +1,23 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "@stylistic/stylelint-config",
+        "stylelint-config-clean-order/error"
+    ],
+    "ignoreDisables": true,
+    "ignoreFiles": "",
+    "plugins": [
+        "@stylistic/stylelint-plugin",
+        "stylelint-no-unsupported-browser-features",
+        "stylelint-scss",
+        "stylelint-selector-bem-pattern"
+    ],
+    "rules": {
+        "plugin/no-unsupported-browser-features": [
+            true,
+            {
+                "severity": "error"
+            }
+        ]
+    }
+}
