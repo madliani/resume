@@ -1,8 +1,12 @@
 import { Card, CardBody, CardFooter, CardHeader } from "@nextui-org/card";
 import { Divider } from "@nextui-org/divider";
 
-export const ExpCard = () => (
-    <Card className="w-1/2 mt-8 mb-8">
+type Properties = {
+    className?: React.CSSProperties;
+};
+
+export const ExpCard = ({ className }: Properties) => (
+    <Card className={className}>
         <CardHeader data-testid="exp-card__title">Experience</CardHeader>
         <Divider />
         <CardBody class="flex flex-col items-center justify-around">

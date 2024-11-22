@@ -9,10 +9,14 @@ export const Home = () => {
     return (
         <Layout>
             <SEO title="Home" />
-            <Main className="flex flex-wrap items-center justify-center">
-                <AboutCard />
-                <EduCard />
-                <ExpCard />
+            <Main className="flex flex-wrap">
+                <section className="mt-8 w-full flex flex-wrap items-center justify-center">
+                    <AboutCard className="w-2/3" />
+                </section>
+                <section className="mt-8 w-full flex flex-col flex-wrap items-center justify-center">
+                    <EduCard className="w-2/3" />
+                    <ExpCard className="w-2/3 mt-8 mb-8" />
+                </section>
             </Main>
         </Layout>
     );
