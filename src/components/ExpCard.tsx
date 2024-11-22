@@ -9,8 +9,8 @@ export const ExpCard = ({ className }: Properties) => (
     <Card className={className}>
         <CardHeader data-testid="exp-card__title">Experience</CardHeader>
         <Divider />
-        <CardBody class="flex flex-col items-center justify-around">
-            <Card className="w-2/3 mt-4">
+        <CardBody class="flex flex-col flex-wrap items-center justify-center mt-8 mb-8">
+            <Card className="w-2/3">
                 <CardHeader data-testid="exp-card__text">
                     Middle Front-end Developer at inter://so
                 </CardHeader>
@@ -34,7 +34,7 @@ export const ExpCard = ({ className }: Properties) => (
                 <CardFooter>02/2022 &mdash; 09/2022</CardFooter>
             </Card>
 
-            <Card className="w-2/3 mt-4 mb-4">
+            <Card className="w-2/3 mt-8">
                 <CardHeader>Junior Front-end Developer at axmit</CardHeader>
                 <Divider />
                 <CardBody>
