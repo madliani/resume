@@ -9,7 +9,7 @@ export const EduCard = ({ className }: Properties) => (
     <Card className={className}>
         <CardHeader data-testid="edu-card__title">Education</CardHeader>
         <Divider />
-        <CardBody class="flex items-baseline justify-center mt-8 mb-8">
+        <CardBody class="flex flex-wrap items-baseline justify-center mt-8 mb-8">
             <Card>
                 <CardHeader data-testid="edu-card__text">
                     Petrozavodsk State University
