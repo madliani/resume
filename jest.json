@@ -17,7 +17,9 @@
     "maxWorkers": "50%",
     "moduleDirectories": ["./node_modules"],
     "moduleFileExtensions": ["js", "mjs", "cjs", "jsx", "ts", "tsx", "json"],
-    "moduleNameMapper": {},
+    "moduleNameMapper": {
+        "\\.(jpeg)$": "<rootDir>/tests/mocks/ImageStub.ts"
+    },
     "modulePathIgnorePatterns": [],
     "notify": false,
     "notifyMode": "failure-change",
