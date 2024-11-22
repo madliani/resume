@@ -12,7 +12,7 @@ export const Home = () => {
             <SEO title="Home" />
             <Main className="flex flex-wrap">
                 <section className="mt-8 w-full flex flex-wrap items-center justify-center">
-                    <Photo />
+                    <Photo className="w-[340px] h-[480px]" />
                     <AboutCard className="w-1/3 ml-8" />
                 </section>
                 <section className="mt-8 w-full flex flex-col flex-wrap items-center justify-center">

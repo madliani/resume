@@ -6,11 +6,5 @@ type Properties = {
 };
 
 export const Photo = ({ className }: Properties) => (
-    <Image
-        className={className}
-        src={SocialAvatar}
-        alt="Me"
-        width={340}
-        height={480}
-    />
+    <Image className={className} src={SocialAvatar} alt="Me" />
 );
