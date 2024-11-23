@@ -17,6 +17,7 @@
     "moduleDirectories": ["./node_modules"],
     "moduleFileExtensions": ["cjs", "js", "json", "jsx", "mjs", "ts", "tsx"],
     "moduleNameMapper": {
+        "\\.(css|scss)$": "<rootDir>/tests/mocks/StyleStub.ts",
         "\\.(jpeg|jpg|png|svg)$": "<rootDir>/tests/mocks/ImageStub.ts"
     },
     "notify": true,
