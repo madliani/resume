@@ -7477,6 +7477,7 @@ __metadata:
     framer-motion: "npm:^11.11.17"
     happy-dom: "npm:^15.11.6"
     jest: "npm:^29.7.0"
+    jest-circus: "npm:^29.7.0"
     next-themes: "npm:^0.4.3"
     node-notifier: "npm:^10.0.1"
     parcel: "npm:^2.13.0"
