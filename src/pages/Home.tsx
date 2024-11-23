@@ -12,12 +12,12 @@ export const Home = () => {
             <SEO title="Home" />
             <Main className="flex flex-wrap">
                 <section className="mt-8 w-full flex flex-wrap items-center justify-center">
-                    <Photo className="w-[360px] h-[480px] mobile:w-[192px] mobile:h-[256px]" />
-                    <AboutCard className="w-8/12 ml-8 mobile:w-11/12 mobile:ml-0 mobile:mt-8" />
+                    <Photo className="w-[192px] h-[256px] tablet:w-[360px] tablet:h-[480px]" />
+                    <AboutCard className="w-11/12 mt-8 tablet:w-8/12 tablet:ml-8" />
                 </section>
                 <section className="mt-8 mb-8 w-full flex flex-col flex-wrap items-center justify-center">
-                    <EduCard className="w-8/12 mobile:w-11/12" />
-                    <ExpCard className="w-8/12 mt-8 mobile:w-11/12" />
+                    <EduCard className="w-11/12 tablet:w-8/12" />
+                    <ExpCard className="w-11/12 tablet:w-8/12 tablet:mt-8" />
                 </section>
             </Main>
         </Layout>
