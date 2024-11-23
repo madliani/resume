@@ -7,6 +7,12 @@ export default {
     ],
     theme: {
         extend: {},
+        screens: {
+            mobile: "360px",
+            tablet: "640px",
+            laptop: "1024px",
+            desktop: "1280px",
+        },
     },
     darkMode: "class",
     plugins: [nextui()],
