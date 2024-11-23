@@ -10,11 +10,18 @@ type Properties = {
 export const PhotoCard = ({ className }: Properties) => (
     <Card className={className}>
         <CardHeader>
-            <Image className={className} src={SocialAvatar} alt="Me" />
+            <Image
+                className={className}
+                src={SocialAvatar}
+                alt="Me"
+                data-testid="photo-card__photo"
+            />
         </CardHeader>
         <CardBody>
             <Button color="primary">
-                <a href="https://raw.githubusercontent.com/madliani/resume/refs/heads/main/assets/documents/CV.pdf">
+                <a
+                    href="https://raw.githubusercontent.com/madliani/resume/refs/heads/main/assets/documents/CV.pdf"
+                    data-testid="photo-card__button">
                     Download CV
                 </a>
             </Button>
