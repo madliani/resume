@@ -1,12 +1,12 @@
 {
     "automock": false,
-    "bail": 0,
+    "bail": true,
     "clearMocks": true,
     "collectCoverage": true,
     "coverageDirectory": "./coverage",
     "coveragePathIgnorePatterns": ["/node_modules/"],
     "coverageProvider": "v8",
-    "coverageReporters": ["json", "text", "lcov", "clover"],
+    "coverageReporters": ["clover", "json", "lcov", "text"],
     "errorOnDeprecated": true,
     "extensionsToTreatAsEsm": [".ts", ".tsx"],
     "fakeTimers": {
@@ -15,9 +15,9 @@
     "forceCoverageMatch": ["**/*.{js,jsx,ts,tsx}"],
     "maxWorkers": "50%",
     "moduleDirectories": ["./node_modules"],
-    "moduleFileExtensions": ["js", "mjs", "cjs", "jsx", "ts", "tsx", "json"],
+    "moduleFileExtensions": ["cjs", "js", "json", "jsx", "mjs", "ts", "tsx"],
     "moduleNameMapper": {
-        "\\.(jpeg)$": "<rootDir>/tests/mocks/ImageStub.ts"
+        "\\.(jpeg|jpg|png|svg)$": "<rootDir>/tests/mocks/ImageStub.ts"
     },
     "notify": true,
     "notifyMode": "failure-change",
