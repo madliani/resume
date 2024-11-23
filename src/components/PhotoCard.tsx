@@ -1,6 +1,7 @@
 import { Button } from "@nextui-org/button";
 import { Card, CardBody, CardHeader } from "@nextui-org/card";
 import { Image } from "@nextui-org/image";
+import classNames from "classnames";
 import SocialAvatar from "../assets/images/social_avatar.jpeg";
 
 type Properties = {
@@ -11,7 +12,10 @@ export const PhotoCard = ({ className }: Properties) => (
     <Card className={className}>
         <CardHeader>
             <Image
-                className={className}
+                className={classNames(
+                    className,
+                    "w-[192px] h-[256px] tablet:w-[360px] tablet:h-[480px]",
+                )}
                 src={SocialAvatar}
                 alt="Me"
                 data-testid="photo-card__photo"
