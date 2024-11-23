@@ -13,12 +13,14 @@ import { Logo } from "./Logo";
 export const Header = () => {
     return (
         <Navbar>
-            <NavbarBrand>
-                <Logo className="w-[64px] h-[64px]" />
-                <Link className="font-bold" to="/" data-testid="header__title">
-                    madliani
-                </Link>
-            </NavbarBrand>
+            <Link to="/">
+                <NavbarBrand>
+                    <Logo className="w-[64px] h-[64px]" />
+                    <span className="font-bold" data-testid="header__title">
+                        madliani
+                    </span>
+                </NavbarBrand>
+            </Link>
             <NavbarContent justify="center">
                 <NavbarItem>
                     <a
