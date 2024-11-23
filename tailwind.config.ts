@@ -1,4 +1,5 @@
 import { nextui } from "@nextui-org/theme";
+import type { Config } from "tailwindcss";
 
 export default {
     mode: "jit",
@@ -17,4 +18,4 @@ export default {
     },
     darkMode: "class",
     plugins: [nextui()],
-};
+} satisfies Config;
