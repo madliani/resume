@@ -1,7 +1,12 @@
 # Resume
 
 <p align="center">
-    <img src="./assets/icons/apple-touch-icon.png" alt="Resume logo" />
+ <img
+ alt="Resume logo"
+ height="192"
+ src="./assets/icons/android-chrome-512x512.png"
+ width="192"
+ />
 
     A personal website built with React and NextUI.
 
