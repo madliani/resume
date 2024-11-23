@@ -16,6 +16,6 @@ export default {
             desktop: "1280px",
         },
     },
-    darkMode: "class",
+    darkMode: "selector",
     plugins: [nextui()],
 } satisfies Readonly<Config>;
