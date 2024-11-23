@@ -1,6 +1,7 @@
 import { nextui } from "@nextui-org/theme";
 
 export default {
+    mode: "jit",
     content: [
         "./src/**/*.{js,jsx,ts,tsx}",
         "./node_modules/@nextui-org/theme/dist/**/*.{js,jsx,ts,tsx}",
