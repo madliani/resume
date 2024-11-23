@@ -22,7 +22,7 @@ export const EduCard = ({ className }: Properties) => (
                 <CardFooter>09/2018 &mdash; 06/2020</CardFooter>
             </Card>
 
-            <Card className="mt-8 tablet:ml-8">
+            <Card className="mt-8 tablet:mt-0 tablet:ml-8">
                 <CardHeader>Petrozavodsk State University</CardHeader>
                 <Divider />
                 <CardBody>
