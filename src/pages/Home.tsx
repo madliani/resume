@@ -15,9 +15,9 @@ export const Home = () => {
                     <Photo className="w-[360px] h-[480px] mobile:w-[192px] mobile:h-[256px]" />
                     <AboutCard className="w-8/12 ml-8 mobile:w-11/12 mobile:ml-0 mobile:mt-8" />
                 </section>
-                <section className="mt-8 w-full flex flex-col flex-wrap items-center justify-center">
+                <section className="mt-8 mb-8 w-full flex flex-col flex-wrap items-center justify-center">
                     <EduCard className="w-8/12 mobile:w-11/12" />
-                    <ExpCard className="w-8/12 mt-8 mb-8 mobile:w-11/12" />
+                    <ExpCard className="w-8/12 mt-8 mobile:w-11/12" />
                 </section>
             </Main>
         </Layout>
