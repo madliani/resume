@@ -22,7 +22,7 @@ describe("Experience card", () => {
 
     test("Loads and displays the text in the experience card", () => {
         const TEST_ID = "exp-card__text";
-        const TEST_VALUE = "Middle Front-end Developer at inter://so";
+        const TEST_VALUE = "inter://so";
 
         render(
             <BrowserRouter>
