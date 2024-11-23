@@ -8,11 +8,13 @@ import {
     NavbarItem,
 } from "@nextui-org/navbar";
 import { Link } from "react-router-dom";
+import { Logo } from "./Logo";
 
 export const Header = () => {
     return (
         <Navbar>
             <NavbarBrand>
+                <Logo className="w-[64px] h-[64px]" />
                 <Link className="font-bold" to="/" data-testid="header__title">
                     madliani
                 </Link>
