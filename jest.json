@@ -33,12 +33,8 @@
     "snapshotSerializers": [],
     "testEnvironment": "@happy-dom/jest-environment",
     "testEnvironmentOptions": {},
-    "testMatch": [
-        "**/__tests__/**/*.[jt]s?(x)",
-        "**/?(*.)+(spec|test).[jt]s?(x)"
-    ],
+    "testMatch": ["**/tests/**/?(*.)+(spec|test).[jt]s?(x)"],
     "testPathIgnorePatterns": ["/node_modules/"],
-    "testRegex": "/__tests__/.*|(\\.|/)(test|spec))\\.[jt]sx?$",
     "testRunner": "jest-circus/runner",
     "transform": {
         "\\.[jt]sx?$": [
