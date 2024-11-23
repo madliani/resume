@@ -79,10 +79,10 @@
     },
     "exclude": ["./node_modules"],
     "include": [
-        "./mocks",
         "./src",
         "./tailwind.config.ts",
         "./tests",
+        "./tests/mocks",
         "./tsconfig.json"
     ]
 }
