@@ -10,35 +10,31 @@ export const AboutCard = ({ className }: Properties) => (
         <CardHeader data-testid="about-card__title">About me</CardHeader>
         <Divider />
         <CardBody>
-            <p data-testid="about-card__text">
-                I'm an experienced frontend developer with over two years of
-                experience, specializing in React and TypeScript. I am
-                passionate about creating efficient and user-friendly
-                interfaces. My background in mathematics gives me a strong
-                analytical foundation, which comes in handy on frontend
-                projects.
-            </p>
-
             <p>
-                I thrive in fast-paced environments where I can use my
-                creativity and technical skills to achieve impactful results.
-                I'm constantly learning and keeping up with the latest trends in
-                front-end technologies. This allows me to quickly adapt to new
-                frameworks and create innovative solutions that drive business
-                growth.
+                I am a front-end developer with commercial experience,
+                specialising in React and TypeScript. I am passionate about
+                creating beautiful and user friendly interfaces. My maths
+                background gives me a strong analytical background, which oen
+                comes in handy on projects.
             </p>
-
-            <p>
-                Outside of work, I enjoy exploring new programming approaches
-                through personal projects and contributing to open source
-                communities.
-            </p>
-
-            <p>
-                Currently, I'm looking for an opportunity to contribute my
-                front-end development skills to an innovative company that
-                values cutting-edge digital solutions.
-            </p>
+            <p>Technology Stack:</p>
+            <ul>
+                <li>React</li>
+                <li>Redux, Redux Thunk and Redux saga</li>
+                <li>TypeScript and JavaScript</li>
+                <li>SCSS</li>
+                <li>GNU/Linux, Git, Bash and Docker</li>
+            </ul>
+            <p>Contacts for communication:</p>
+            <ul>
+                <li>Phone and WhatsApp: +995 555 75 29 59</li>
+                <li>
+                    Email:{" "}
+                    <a href="mailto:madliani@hotmail.com">
+                        madliani@hotmail.com
+                    </a>
+                </li>
+            </ul>
         </CardBody>
     </Card>
 );
