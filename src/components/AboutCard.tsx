@@ -17,14 +17,10 @@ export const AboutCard = ({ className }: Properties) => (
                 background gives me a strong analytical background, which oen
                 comes in handy on projects.
             </p>
-            <p>Technology Stack:</p>
-            <ul>
-                <li>React</li>
-                <li>Redux, Redux Thunk and Redux saga</li>
-                <li>TypeScript and JavaScript</li>
-                <li>SCSS</li>
-                <li>GNU/Linux, Git, Bash and Docker</li>
-            </ul>
+            <p>
+                Technology Stack: React, Redux, Redux Thunk, Redux saga,
+                TypeScript, JavaScript, SCSS, GNU/Linux, Git, Bash, Docker.
+            </p>
             <p>Contacts for communication:</p>
             <ul>
                 <li>Phone and WhatsApp: +995 555 75 29 59</li>
