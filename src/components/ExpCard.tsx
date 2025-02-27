@@ -35,13 +35,10 @@ export const ExpCard = ({ className }: Properties) => (
                             conversions and improve SEO metrics.
                         </li>
                     </ul>
-                    <p>Stack used:</p>
-                    <ul>
-                        <li>React</li>
-                        <li>Redux and Redux-Saga</li>
-                        <li>JavaScript and TypeScript</li>
-                        <li>SCSS</li>
-                    </ul>
+                    <p>
+                        Stack used: React, Redux, Redux-Saga, JavaScript,
+                        TypeScript, SCSS.
+                    </p>
                 </CardBody>
                 <Divider />
                 <CardFooter>06/2019 &mdash; 10/2020</CardFooter>
