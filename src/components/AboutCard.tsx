@@ -7,7 +7,7 @@ type Properties = {
 
 export const AboutCard = ({ className }: Properties) => (
     <Card className={className}>
-        <CardHeader data-testid="about-card__title">About me</CardHeader>
+        <CardHeader data-testid="about-card__title">Summary</CardHeader>
         <Divider />
         <CardBody>
             <p>
