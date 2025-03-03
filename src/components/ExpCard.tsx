@@ -22,24 +22,24 @@ export const ExpCard = ({ className }: Properties) => (
                     <p>Improvements implemented:</p>
                     <ul>
                         <li>
-                            Implemented a REST API following the Swagger
-                            documentation to enable client-server interaction.
+                            implemented a REST API following the Swagger
+                            documentation to enable client-server interaction,
                         </li>
                         <li>
-                            Added unit-test coverage of key code fragments to
-                            increase reliability and simplify future support.
+                            added unit-test coverage of key code fragments to
+                            increase reliability and simplify future support,
                         </li>
                         <li>
-                            Integrated and configured Google Analytics to track
+                            integrated and configured Google Analytics to track
                             user interaction with the interface and optimize
-                            application performance.
+                            application performance,
                         </li>
                         <li>
-                            Integrated Google Maps API to select relevant
-                            content based on user location.
+                            integrated Google Maps API to select relevant
+                            content based on user location,
                         </li>
                         <li>
-                            Added OpenGraph meta tags to increase social media
+                            added OpenGraph meta tags to increase social media
                             conversions and improve SEO metrics.
                         </li>
                     </ul>
