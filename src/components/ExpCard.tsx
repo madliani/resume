@@ -22,6 +22,14 @@ export const ExpCard = ({ className }: Properties) => (
                     <p>Improvements implemented:</p>
                     <ul>
                         <li>
+                            Implemented a REST API following the Swagger
+                            documentation to enable client-server interaction.
+                        </li>
+                        <li>
+                            Added unit-test coverage of key code fragments to
+                            increase reliability and simplify future support.
+                        </li>
+                        <li>
                             Integrated and configured Google Analytics to track
                             user interaction with the interface and optimize
                             application performance.
