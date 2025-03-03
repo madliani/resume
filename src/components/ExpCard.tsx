@@ -26,7 +26,7 @@ export const ExpCard = ({ className }: Properties) => (
                             documentation to enable client-server interaction,
                         </li>
                         <li>
-                            added unit-test coverage of key code fragments to
+                            added unit test coverage of key code fragments to
                             increase reliability and simplify future support,
                         </li>
                         <li>
