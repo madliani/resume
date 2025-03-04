@@ -18,7 +18,7 @@ export const AboutCard = ({ className }: Properties) => (
                 comes in handy on projects.
             </p>
             <p>
-                Technology Stack: React, Redux, Redux Thunk, Redux saga,
+                Technology Stack: React, Redux, Redux Thunk, Redux-Saga,
                 TypeScript, JavaScript, SCSS, GNU/Linux, Git, Bash, Docker.
             </p>
             <p>Contacts for communication:</p>
